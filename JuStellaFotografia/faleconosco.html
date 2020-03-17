@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>JuStella Fotografia | Fale Conosco</title>
+</head>
+
+<body>
+    <img width="10%" src="LogoJuStella.jpg" alt="Logomarca JuStella">
+
+    <a href="inicio.html">Início</a> |
+    <a href="sobre.html">Sobre</a> |
+    <a href="portfolio.html">Portfólio</a> |
+    <a href="faleconosco.html">Fale Conosco</a> |
+    <a href="areacliente.html">Área do Cliente</a>
+    <br><br>
+
+    <form method="post" action="/clientes">
+        <label for="nome" id="labelNome">Nome: </label>
+        <input type="text" name="Nome" placeholder="Nome do Cliente" id="nome">
+
+        <br><br>
+
+        <label for="email" id="labelEmail">E-mail: </label>
+        <input type="text" name="email" placeholder="E-mail" id="email">
+
+        <br><br>
+
+        <label for="telefone" id="labelTelefone"> Telefone: </label>
+        <input type="text" name="telefone" placeholder="Telefone" id="telefone">
+
+        <label for="cidade" id="labelCidade"> Cidade: </label>
+        <input type="text" name="cidade" placeholder="Cidade" id="cidade">
+
+        <br><br>
+
+        <label>Opções:</label>
+        <select name="opcoes" id="opcoes">
+            <option disabled selected value="0">Selecione</option>
+            <option value="1">Retratos</option>
+            <option value="2">Família</option>
+            <option value="3">Gestante</option>
+            <option value="4">Casais</option>
+            <option value="5">Infantil</option>
+        </select>
+
+        <br><br>
+        <label for="mensagem" id="labelMensagem"> Mensagem: </label>
+        <input type="text" name="mensagem" placeholder="Mensagem" id="mensagem">
+
+        <br><br>
+
+        <br><br>
+        <input type="reset" value="Limpar formulário">
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+
+</html>
